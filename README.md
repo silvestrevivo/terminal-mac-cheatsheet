@@ -88,7 +88,7 @@ Each column means:
 
 | drwxr-xr-x 5 | cc | eng | 4096 | Jun 24 16:51 | action |
 | :----------: |:-: | :-: | :--: | :----------: | :----: |
-| write/read/edit| user name | group file | size | last modification | file name
+| writable/readable/editable| user name | group file | size | last modification | file name
 ---
 ## FILES MANAGEMENT
 | Key/Command | Description |
