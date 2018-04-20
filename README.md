@@ -85,6 +85,7 @@ When we type `ls -l` the result has the next pattern:
     -rw-r--r-- 1  cc  eng     0 Jun 24 16:51  genres.txt
 ```
 Each column means:
+
 | drwxr-xr-x 5 | cc | eng | 4096 | Jun 24 16:51 | action |
 | :----------: |:-: | :-: | :--: | :----------: | :----: |
 | write/read/edit| user name | group file | size | last modification | file name
