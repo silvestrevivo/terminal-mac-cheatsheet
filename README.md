@@ -76,8 +76,19 @@ Some examples of them:
 | ls -S | Listing files sorted by size |
 | ls -althFS | Combining all previous options |
 | ls [folder] | Listing a folder one level up |
-
-
+---
+When we type `ls -l` the result has the next pattern:
+```
+    drwxr-xr-x 5  cc  eng  4096 Jun 24 16:51  action
+    drwxr-xr-x 4  cc  eng  4096 Jun 24 16:51  comedy
+    drwxr-xr-x 6  cc  eng  4096 Jun 24 16:51  drama
+    -rw-r--r-- 1  cc  eng     0 Jun 24 16:51  genres.txt
+```
+Each column means:
+| drwxr-xr-x 5 | cc | eng | 4096 | Jun 24 16:51 | action |
+| :----------: |:-: | :-: | :--: | :----------: | :----: |
+| write/read/edit| user name | group file | size | last modification | file name
+---
 ## FILES MANAGEMENT
 | Key/Command | Description |
 | :-----------: | ----------- |
@@ -99,7 +110,7 @@ Some examples of them:
 | mv [file] [dir] | Moves file to directory |
 | mv [file] [new filename] | Renames file in same directory |
 | *.[extention] | Selects all files with that extension |
-| * .* | Selects all the files |
+| * . * | Selects all the files |
 | leters*.* | Selects all files which begins with [leters]|
 
 
@@ -111,11 +122,25 @@ Some examples of them:
 | mkdir -p [dir]/[dir] | Create nested directories |
 | rmdir [dir] | Remove directory ( only operates on empty directories ) |
 
+
+## EDITION MANAGEMENT
+| Key/Command | Description |
+| :-----------: | ----------- |
+| cat [file] | Print out and concatenate files on screen terminal|
+| cat - n [file] | Print out and concatenate files with rule number next to |
+
+
 ## HISTORY
+| Key/Command | Description |
+| :-----------: | ----------- |
+| history | Shows complete command history |
+| history n | Shows the last n commands of historial |
+| ctrl-r | Interactively search through previously typed commands |
+| ![value] | Execute the last command typed that starts with ‘value' |
+| ![value]:p | Print to the console the last command typed that starts with ‘value’ |
+| !! | Execute the last command typed |
+| !!:p | Print to the console the last command typed |
 
-## SEARCH
-
-## HELP
 
 ## CHAINING COMMANDS
 | Key/Command | Description |
@@ -124,6 +149,16 @@ Some examples of them:
 | [command-a] && [command-b] | Run command B if A succeeded |
 | [command-a] || [command-b] | Run command B if A failed |
 | [command-a] & | Run command A in background |
+
+
+## HELP
+| Key/Command | Description |
+| :-----------: | ----------- |
+| [command] -h , [command] --help | Offers help |
+| man [command] | Show the help manual for [command] |
+| whatis [command] | Gives a one-line description of [command] |
+| apropos [search-pattern] | Searches for command with keywords in description |
+
 
 ---
 
