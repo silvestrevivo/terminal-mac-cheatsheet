@@ -10,19 +10,19 @@ The terminal has two first things to learn: *The prompt* `$` is where you type t
 Some examples of them:
 
 ```js
-    $ whoami                => Print out owner name of terminal
+    $ whoami                => Prints out owner name of terminal
     $ date                  => do 19 apr 2018 21:34:12 CEST
     $ date -u               => vr 20 apr 2018 11:07:38 UTC
     $ cal                   => Current month
     $ cal 01 2018           => First month of 2018
-    $ killall <application> => Close application
-    $ echo "message"        => Print out 'message' on terminal
-    $ echo "message        "=> Print message in two lines
+    $ killall <application> => Closes application
+    $ echo "message"        => Prints out 'message' on terminal
+    $ echo "message        "=> Prints message in two lines
     $ echo "in two lines"
-    $ echo $USER            => Print out owner name of terminal
-    $ echo $HOME            => Print out root user directory
+    $ echo $USER            => Prints out owner name of terminal
+    $ echo $HOME            => Prints out root user directory
     $ say "message"         => The computer says the 'message' aloud
-    $ clear                 => Clean the terminal
+    $ clear                 => Cleans the terminal
     $ reset                 => Resets de terminal display
     $ top                   => Displays active processes: `q` to quit
     $ exit                  => End of terminal session
@@ -96,6 +96,7 @@ Each column means:
 | touch [filename.extension] | Creates a new file |
 | open [file] | Opens a file with its program by default |
 | nano [file] | Opens a file with the nano editor of the terminal |
+| nano -m [file] | Opens a file with nano editor and mouse as pointer |
 | pico [file] | Opens a file with the nano editor of the terminal |
 | vim [file] | Opens file with Vim editor |
 | :q | Exit from Vim editor without save |
@@ -120,15 +121,25 @@ Each column means:
 | :-----------: | ----------- |
 | mkdir [dir] | Creates new directory |
 | mkdir [dir] && cd [dir] | Creates and enter in new directory |
-| mkdir -p [dir]/[dir] | Create nested directories |
-| rmdir [dir] | Remove directory ( only operates on empty directories ) |
+| mkdir -p [dir]/[dir] | Creates nested directories |
+| rmdir [dir] | Removes directory ( only operates on empty directories ) |
 
 
 ## EDITION MANAGEMENT
 | Key/Command | Description |
 | :-----------: | ----------- |
-| cat [file] | Print out and concatenate files on screen terminal|
-| cat - n [file] | Print out and concatenate files with rule number next to |
+| cat [file] | Prints out and concatenate files on screen terminal|
+| cat - n [file] | Prints out and concatenate files with rule number next to |
+| cat file01 > file02 | Overwrites the content from one file to another one |
+| cat file01 >> file02 | Concatenates the content of both files on the second one |
+| echo 'message' | Prints out 'message' on the screen terminal |
+| echo "message" > [file] | Writes 'message' as content on file |
+| echo "text" >> [file] | Adds 'message' as content at the end of file |
+| more [file] | Prints out the file content from the beginning |
+| sort [file] | Sorts a file alphabetically |
+| file [file] | Gives information about the file |
+| file *.extension | Gives information about all files with that extension |
+
 
 
 ## HISTORY
