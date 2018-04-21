@@ -135,7 +135,8 @@ Each column means:
 | echo 'message' | Prints out 'message' on the screen terminal |
 | echo "message" > [file] | Writes 'message' as content on file |
 | echo "text" >> [file] | Adds 'message' as content at the end of file |
-| more [file] | Prints out the file content from the beginning |
+| more [file] | Prints out the file content targeting the beginning |
+| less [file] | Output file content delivered in another space in th terminal |
 | sort [file] | Sorts a file alphabetically |
 | file [file] | Gives information about the file |
 | file *.extension | Gives information about all files with that extension |
