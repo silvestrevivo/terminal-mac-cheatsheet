@@ -22,6 +22,7 @@ Some examples of them:
     $ echo $USER            => Prints out owner name of terminal
     $ echo $HOME            => Prints out root user directory
     $ say "message"         => The computer says the 'message' aloud
+    $ man [command]         => Opens the manual for that command
     $ clear                 => Cleans the terminal
     $ reset                 => Resets de terminal display
     $ top                   => Displays active processes: `q` to quit
@@ -186,15 +187,3 @@ Each column means:
 | man [command] | Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
 | apropos [search-pattern] | Searches for command with keywords in description |
-
-
----
-
-## MISCELANEA
-
-```js
-    $ man [command]     => manual
-    $ nano              => open
-    $ sudo              => owner
-````
----
