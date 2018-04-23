@@ -148,6 +148,15 @@ Each column means:
 | pbpaste > [file] | Paste clipboard contents into file |
 
 
+## PIPES
+| Key/Command | Description |
+| :-----------: | ----------- |
+| [command1] \| [command2] | Uses the output of command1 to execute command2 |
+| tail -n [file] | Shows the last n lines of the file |
+| [command1] \| tail -n | Outputs the last n files of the command1 |
+|  [command1] \| tail -n \| less | Outputs as less the last 3 lines of command1 |
+| [command1] \| tail -n \| sort > [newfile] | Sort the last n files of command1 in a new file |
+
 
 ## HISTORY
 | Key/Command | Description |
