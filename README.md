@@ -123,6 +123,9 @@ Each column means:
 | mkdir [dir] && cd [dir] | Creates and enter in new directory |
 | mkdir -p [dir]/[dir] | Creates nested directories |
 | rmdir [dir] | Removes directory ( only operates on empty directories ) |
+| [command] > [file] | Push output to file, keep in mind it will get overwritten |
+| [command] >> [file] | Append output to existing file |
+| [command] < [file] | Tell command to read content from a file |
 
 
 ## EDITION MANAGEMENT
@@ -140,6 +143,9 @@ Each column means:
 | sort [file] | Sorts a file alphabetically |
 | file [file] | Gives information about the file |
 | file *.extension | Gives information about all files with that extension |
+| pbcopy < [file] | Copies file contents to clipboard |
+| pbpaste | Paste clipboard contents |
+| pbpaste > [file] | Paste clipboard contents into file |
 
 
 
