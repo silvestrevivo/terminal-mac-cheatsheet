@@ -159,6 +159,22 @@ Each column means:
 | [command1] \| tail -n \| sort > [newfile] | Sort the last n files of command1 in a new file |
 
 
+## SEARCH
+| Key/Command | Description |
+| :-----------: | ----------- |
+| pipe . | Search everything in the current folder |
+| find [dir] -name [search_pattern] | Search for files inside a folder |
+| find [dir] -type f | Finds just the files inside a folder |
+| find [dir] -type d | Finds just the folders inside a folder |
+| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata) |
+| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+| grep [search_pattern] [file] | Searchs for all lines in the file that contain the pattern |
+| grep -i [search_pattern] [file] | Searchs for the same but in insensitive way |
+| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
+| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
+
+
+
 ## HISTORY
 | Key/Command | Description |
 | :-----------: | ----------- |
