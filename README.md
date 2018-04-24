@@ -219,3 +219,46 @@ Each column means:
 | man [command] | Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
 | apropos [search-pattern] | Searches for command with keywords in description |
+
+---
+### VARIABLES AND INTRODUCTION TO SHELL SCRIPTING
+
+#### Variables
+```javascript
+$ myvar=123         => New variable
+$ echo $myvar       => 123
+$ unset myvar       => Delete variable
+$ myvar=$(command)  => Myvar takes the value of the output of the command
+```
+#### Eviroment Variables
+```javascript
+$ echo $USER        => Gives the current user
+$ echo $HOME        => Gives the root-user directory
+$ echo $PATH        => Lists the directories where are placed the executable files
+```
+#### How to input variables
+```javascript
+$ read myvar        => A prompt waits for a value in a new line
+                       Then you can get back the value typing `echo $myvar`
+$ read -p "message" => Get a `message` before input in the new line
+$ read -s myvar     => Hide the value you are introducing.
+                       Becomes visible with `echo $myvar`
+```
+#### Strings
+```javascript
+$ echo "this is a simple string"            => Read a string
+$ echo "this is a variable called $myvar"   => Sets a variable in a string
+```
+
+#### Executable files
+```javascript
+$ pathtofile/filename.extension     => Executes a file with a script inside
+$ ./filename.extension              => Executes a file in the current directory
+```
+
+#### Program locations
+```javascript
+$ which [command]       => Gives you the location of the `command`
+                           Commands are the executable files of the system
+```
+---
