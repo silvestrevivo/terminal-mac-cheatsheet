@@ -114,7 +114,7 @@ Each column means:
 | mv [file] [new filename] | Renames file in same directory |
 | *.[extention] | Selects all files with that extension |
 | * . * | Selects all the files |
-| leters*.* | Selects all files which begins with [leters]|
+| leters*.* | Selects all files which begins with `leters`|
 
 
 ## DIRECTORIES MANAGEMENT
@@ -136,9 +136,9 @@ Each column means:
 | cat - n [file] | Prints out and concatenate files with rule number next to |
 | cat file01 > file02 | Overwrites the content from one file to another one |
 | cat file01 >> file02 | Concatenates the content of both files on the second one |
-| echo 'message' | Prints out 'message' on the screen terminal |
-| echo "message" > [file] | Writes 'message' as content on file |
-| echo "text" >> [file] | Adds 'message' as content at the end of file |
+| echo 'message' | Prints out `message` on the screen terminal |
+| echo "message" > [file] | Writes `message` as content on file |
+| echo "text" >> [file] | Adds `message` as content at the end of file |
 | more [file] | Prints out the file content targeting the beginning |
 | less [file] | Output file content delivered in another space in th terminal |
 | sort [file] | Sorts a file alphabetically |
@@ -181,8 +181,8 @@ Each column means:
 | history | Shows complete command history |
 | history n | Shows the last n commands of historial |
 | ctrl-r | Interactively search through previously typed commands |
-| ![value] | Execute the last command typed that starts with ‘value' |
-| ![value]:p | Print to the console the last command typed that starts with ‘value’ |
+| ![value] | Execute the last command typed that starts with `value` |
+| ![value]:p | Print to the console the last command typed that starts with `value` |
 | !! | Execute the last command typed |
 | !!:p | Print to the console the last command typed |
 
@@ -194,6 +194,14 @@ Each column means:
 | [command-a] && [command-b] | Run command B if A succeeded |
 | [command-a] || [command-b] | Run command B if A failed |
 | [command-a] & | Run command A in background |
+
+
+## OWNERSHIP
+| Key/Command | Description |
+| :-----------: | ----------- |
+| sudo | Root or Super User, overwrites the permissions of all users. You can edit, copy, move or delete files using super user. |
+|  sudo touch [file] | Creates a file as root of super user |
+| sudo bash | Opens a new bash as super user (whoami => root). Now is not needed to write sudo before. Type `exit` to quit.|
 
 
 ## HELP
