@@ -206,6 +206,10 @@ Each column means:
 | sudo chgrp [newgroupname] [file] | Assings the file to a new group |
 | sudo chown -R [newuser] [folder] |  Assigns to a folder recursively a new ownership |
 | sudo chgrp [newgoupname] -R [folder] | Assings the folder recursively to a new group |
+| chmod u=wrx [file] | Gives the permission to the owner to write, read and execute the file |
+| chmod o=wrx [file] | Gives the permission to another else to  write, read and execute the file |
+| chmod +x [file] | Adds the executable permision for  everyone to that file |
+| chmod -x [file] | Takes out the executable permision for everyone to that file |
 
 
 ## HELP
