@@ -202,6 +202,10 @@ Each column means:
 | sudo | Root or Super User, overwrites the permissions of all users. You can edit, copy, move or delete files using super user. |
 |  sudo touch [file] | Creates a file as root of super user |
 | sudo bash | Opens a new bash as super user (whoami => root). Now is not needed to write sudo before. Type `exit` to quit.|
+| sudo chown [newuser] [file] | Assigns to the new user the ownership of that file. Since then the new user can edit the file without `sudo` |
+| sudo chgrp [newgroupname] [file] | Assings the file to a new group |
+| sudo chown -R [newuser] [folder] |  Assigns to a folder recursively a new ownership |
+| sudo chgrp [newgoupname] -R [folder] | Assings the folder recursively to a new group |
 
 
 ## HELP
