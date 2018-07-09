@@ -1,4 +1,13 @@
-# terminal-mac-cheatsheet
+<div align="center">
+  <img width="200" height="200"
+    src="https://www.omgubuntu.co.uk/wp-content/uploads/2016/09/terminal-icon.png">
+  <a href="https://github.com/silvestrevivo">
+    <img width="200" height="200"
+      src="https://seeklogo.com/images/A/Apple-logo-4DC2B05F7D-seeklogo.com.png">
+  </a>
+  <h1>Terminal mac-cheatsheet</h1>
+</div>
+
 The terminal has two first things to learn: *The prompt* `$` is where you type the commands to execute, and the *root* `~` is just the **root user folder**. There are *three* types of commands:
 
 + Single: `$ date` => *$ command*
