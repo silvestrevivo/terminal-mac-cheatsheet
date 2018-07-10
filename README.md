@@ -2,8 +2,8 @@
   <img width="200" height="200"
     src="https://www.omgubuntu.co.uk/wp-content/uploads/2016/09/terminal-icon.png">
   <a href="https://github.com/silvestrevivo">
-    <img width="200" height="200"
-      src="https://seeklogo.com/images/A/Apple-logo-4DC2B05F7D-seeklogo.com.png">
+    <img width="400" height="200"
+      src="https://s3.amazonaws.com/freebiesupply/large/2x/ios-logo-png-transparent.png">
   </a>
   <h1>Terminal mac-cheatsheet</h1>
 </div>
